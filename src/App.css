@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  --main-color: #ff7979;
+  --second-color: #5E54A4;
+  --third-color: #38CC8B;
+  --font-color: #FFFFFF;
+  --font-color-second: #3D3B48;
+  --footer-font-color: #FFFFFF;
+  --font-family: 'Poppins', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+body {
+  min-width: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: url() var(--main-color);
+}
